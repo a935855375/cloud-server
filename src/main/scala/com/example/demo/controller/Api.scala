@@ -4,7 +4,6 @@ import java.io.BufferedInputStream
 import java.text.SimpleDateFormat
 import java.util.{Date, UUID}
 
-import com.example.demo.entity
 import com.example.demo.entity.{Status, StatusWithFile}
 import com.example.demo.models.{FileList, Files, UserFiles}
 import com.example.demo.repostory.{FileListRepository, UserRepository}

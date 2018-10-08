@@ -151,7 +151,7 @@ class UploadService @Autowired()(mongo: MongoTemplate) {
 object UploadService {
   val zip = List("zip", "rar", "7z")
   val txt = List("txt", "json")
-  val doc = List("doc, docx")
+  val doc = List("doc", "docx")
   val pic = List("png", "jpg", "jpeg", "gif", "svg")
   val video = List("mp4", "avi", "mov", "rmvb", "3gp", "wmv", "mpeg", "mkv", "flv", "vob")
   val audio = List("mp3", "wav", "wma", "ogg", "ape", "acc")
